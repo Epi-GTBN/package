@@ -1,4 +1,4 @@
-<img align="center" src='./HZAU-120th-slogan.jpg' height=500px/>
+<img align="center" src='./HZAU-120th-slogan.jpg'/>
 
 <h1 align="center">
   R package for Epi-GTBN
@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="https://cran.r-project.org"><img src="https://img.shields.io/badge/R-3.4.1-green.svg" alt="R-3.4.1"/></a>
+  <a href="http://gcc.gnu.org"><img src="https://img.shields.io/badge/gcc-7.1.0-green.svg" alt="gcc-7.1.0"/></a>
 </p>
 
 ## TBA
