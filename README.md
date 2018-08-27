@@ -1,8 +1,10 @@
-<img align="center" src='./HZAU-120th-slogan.jpg'/>
+<img align="center" src='./HZAU-120th-slogan.jpg' height=600px/>
 
 <h1 align="center">
   R package for Epi-GTBN
 </h1>
+
+<h4 align="center">An Approach of Epistasis Mining Based on Genetic Tabu Algorithm and Bayesian Network</h4>
 
 <p align="center">
   <a href="https://cran.r-project.org"><img src="https://img.shields.io/badge/R-3.4.1-green.svg" alt="R-3.4.1"/></a>
@@ -15,9 +17,9 @@ contents will be available once my paper is accepted.
 
 ## Organization
 
-<img src="./HZAU-120th.jpg" alt="HZAU-120th" height = 264px /><br/>
+<img src="./HZAU-120th.png" alt="HZAU-120th" width = 340px/><br/>
 
-<img src="./COI.png" alt="College of Infomatics, HZAU" height = 64px />
+<img src="./COI.png" alt="College of Infomatics, HZAU" />
 
-<a href="https://github.com/Epi-GTBN"><img src="https://sgyzetrov.github.io/images/epiGTBN-horizontal.png" alt="Epi-GTBN logo" title="An Approach of Epistasis Mining Based on Genetic Tabu Algorithm and Bayesian Network" height = 146px/></a>
+<a href="https://github.com/Epi-GTBN"><img src="https://sgyzetrov.github.io/images/epiGTBN-horizontal.png" alt="Epi-GTBN logo" title="An Approach of Epistasis Mining Based on Genetic Tabu Algorithm and Bayesian Network" height = 100px/></a>
 
