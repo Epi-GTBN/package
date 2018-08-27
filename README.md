@@ -1,4 +1,4 @@
-<img align="center" src='./HZAU-120th-slogan.jpg' height=600px/>
+<img align="center" src='./HZAU-120th-slogan.jpg'/>
 
 <h1 align="center">
   R package for Epi-GTBN
