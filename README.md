@@ -14,7 +14,7 @@
 
 ## TBA
 
-contents will be available once my paper is accepted.
+Contents will be available once my paper is accepted.
 
 > ### Epi-GTBN: An Approach of Epistasis Mining Based on Genetic Tabu Algorithm and Bayesian Network
 > *Yang Guo*<sup>#</sup>, *Zhiman Zhong*<sup>#</sup> *(joint first authors), Chen Yang, Jiangfeng Hu, Yaling Jiang, Zizhen Liang, Hui Gao, Jianxiao Liu*\*<br/>
