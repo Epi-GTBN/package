@@ -1,0 +1,20 @@
+Package: epiGTBN
+Type: Package
+Title: Epistasis Mining Based on Genetic Tabu Algorithm and Bayesian Network
+Version: 2.1.0-2
+Date: 2018-08-23
+Depends: R (>= 3.4.1), methods
+Suggests: parallel, graph, Rgraphviz, lattice, gRain
+Author: Yang (Simon) Guo, ZhiMan (Melody) Zhong
+Maintainer: Yang (Simon) Guo <simon-guo@outlook.com>, ZhiMan (Melody) Zhong <15927923213@163.com>
+Description: Here is Epi-GTBN, An Approach of Epistasis Mining Based on Genetic Tabu Algorithm and Bayesian Network.
+    It uses genetic tabu algorithm into the heuristic search strategy of Bayesian network. 
+    The individual structure can be evolved through the genetic manipulations of selection, crossover and mutation. It can help 
+    to find the optimal network structure, and then mine the epistasis loci in further. 
+    In order to enhance the diversity of the population and obtain a more effective global optimal solution, we implement 
+    the tabu search strategy into the operations of crossover and mutation in genetic algorithm. 
+    For additional information and supplementary material, visit http://122.205.95.139/Epi-GTBN/.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: yes
+NeedsCompilation: yes

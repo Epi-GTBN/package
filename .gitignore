@@ -1,1 +1,9 @@
 Presentation4.pptx
+.vscode
+.Rapp.history
+*.o
+*.so
+.Rhistory
+.Rproj.user
+.RData
+.Rbuildignore

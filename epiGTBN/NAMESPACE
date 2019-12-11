@@ -1,0 +1,96 @@
+export(
+  "gtbn2",
+  "gtbn3",
+  "arcs",
+  "arcs<-",
+  "directed.arcs",
+  "undirected.arcs",
+  "amat",
+  "amat<-",
+  "whitelist",
+  "blacklist",
+  "score",
+  "acyclic",
+  "node.ordering",
+  "ordering2blacklist",
+  "tiers2blacklist",
+  "graphviz.plot",
+  "discretize"
+)
+
+useDynLib(epiGTBN)
+
+importFrom("methods", "new", "setClass", "setGeneric", "setMethod")
+importFrom("stats", "logLik", "AIC", "BIC", "coefficients", "complete.cases",
+  "cor", "dnorm", "ecdf", "fitted", "formula", "knots", "optimize", "quantile",
+  "residuals", "sd", "weighted.mean", "median")
+importFrom("grDevices", "col2rgb", "colors")
+importFrom("graphics", "abline", "arrows", "lines", "plot", "points",
+  "strheight", "strwidth", "text")
+
+S3method(as.bn, fit)
+
+S3method(all.equal, bn)
+S3method(all.equal, bn.fit)
+S3method(print, bn)
+S3method(plot, bn)
+S3method(AIC, bn)
+S3method(AIC, bn.fit)
+S3method(BIC, bn)
+S3method(BIC, bn.fit)
+S3method(logLik, bn)
+S3method(logLik, bn.fit)
+S3method(rbn, bn)
+S3method(rbn, bn.fit)
+S3method(rbn, default)
+S3method(as.bn, character)
+S3method(as.character, bn)
+S3method(as.grain, bn.fit)
+S3method(as.bn, grain)
+S3method(as.bn.fit, grain)
+S3method(as.graphNEL, bn)
+S3method(as.bn, graphNEL)
+S3method(as.graphNEL, bn.fit)
+S3method(as.graphAM, bn)
+S3method(as.bn, graphAM)
+S3method(as.graphAM, bn.fit)
+S3method(print, "bn.fit")
+S3method(print, "bn.fit.dnode")
+S3method(print, "bn.fit.onode")
+S3method(print, "bn.fit.gnode")
+S3method(print, "bn.fit.cgnode")
+S3method(residuals, "bn.fit")
+S3method(residuals, "bn.fit.dnode")
+S3method(residuals, "bn.fit.onode")
+S3method(residuals, "bn.fit.gnode")
+S3method(residuals, "bn.fit.cgnode")
+S3method(fitted, "bn.fit")
+S3method(fitted, "bn.fit.dnode")
+S3method(fitted, "bn.fit.onode")
+S3method(fitted, "bn.fit.gnode")
+S3method(fitted, "bn.fit.cgnode")
+S3method(sigma, "bn.fit")
+S3method(sigma, "bn.fit.dnode")
+S3method(sigma, "bn.fit.onode")
+S3method(sigma, "bn.fit.gnode")
+S3method(sigma, "bn.fit.cgnode")
+S3method(coef, "bn.fit")
+S3method(coef, "bn.fit.dnode")
+S3method(coef, "bn.fit.onode")
+S3method(coef, "bn.fit.gnode")
+S3method(coef, "bn.fit.cgnode")
+S3method(print, "bn.kcv")
+S3method(plot, "bn.kcv")
+S3method(print, "bn.kcv.list")
+S3method(plot, "bn.kcv.list")
+S3method(plot, "bn.strength")
+S3method(predict, "bn")
+S3method(predict, "bn.fit")
+S3method(predict, "bn.naive")
+S3method(predict, "bn.tan")
+S3method("$<-", "bn.fit")
+S3method("[[<-", "bn.fit")
+S3method(mean, "bn.strength")
+
+exportClasses("bn", "bn.fit")
+exportMethods("nodes", "nodes<-", "degree")
