@@ -98,6 +98,8 @@ Epi-GTBN is distributed under GPL version 2 or later, see the source code.
 
 > Yang Guo#, Zhiman Zhong#, Chen Yang, Jiangfeng Hu, Yaling Jiang, Zizhen Liang, Hui Gao, Jianxiao Liu*. Epi-GTBN: An Approach of Epistasis Mining Based on Genetic Tabu Algorithm and Bayesian Network. BMC Bioinformatics 20(1): 444:1-444:18 (2019)
 
+[Paper (.pdf)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3022-z)
+
 ## Organization
 
 <img src="./HZAU-120th.png" alt="HZAU-120th" width = 340px/><br/>
