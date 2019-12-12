@@ -8,7 +8,7 @@
 <h4 align="center">An Approach of Epistasis Mining Based on Genetic Tabu Algorithm and Bayesian Network</h4>
 
 <p align="center">
-  Current version of this package: <strong>2.1.0-2</strong><br/>
+  Current version of this package: <strong>2.1.0-3</strong><br/>
   <a href="https://cran.r-project.org"><img src="https://img.shields.io/badge/R-3.4.1-green.svg" alt="R-3.4.1"/></a>
   <a href="http://gcc.gnu.org"><img src="https://img.shields.io/badge/gcc-7.1.0-green.svg" alt="gcc-7.1.0"/></a>
 </p>
@@ -24,7 +24,7 @@ In order to enhance the diversity of the population and obtain a more effective 
                     
 - For Mac and Linux user: enter directory that stores the `.tar.gz` package, then run command `R CMD install epiGTBN` to install
 - For PC user: additional software 'Rtools' needs to be installed, then in R console run command `install.packages("path\\to\\epiGTBN_XXX.tar.gz", repos=NULL, type="source")` to install
-- Install from github: TBA
+- Install from github: Compressed source code can be found at [github.com/Epi-GTBN/package/releases](https://github.com/Epi-GTBN/package/releases), currently there is no plan to implement the `install_github()` method.
 
 ## USAGE EXAMPLE
 
