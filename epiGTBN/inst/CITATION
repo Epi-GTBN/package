@@ -1,0 +1,30 @@
+citHeader("To cite epiGTBN in publications use the following:")
+
+bibentry(bibtype = "Article",
+  title        = "Epi-GTBN: an approach of epistasis mining based on genetic Tabu algorithm and Bayesian network",
+  author       = c(person(family = "Guo", given = "Yang"),
+                   person(family = "Zhong", given = "Zhiman"),
+                   person(family = "Yang", given = "Chen"),
+                   person(family = "Hu", given = "Jiangfeng"),
+                   person(family = "Jiang", given = "Yaling"),
+                   person(family = "Liang", given = "Zizhen"),
+                   person(family = "Gao", given = "Hui"),
+                   person(family = "Liu", given = "Jianxiao")),
+  journal      = "BMC Bioinformatics",
+  year         = "2019",
+  volume       = "20",
+  number       = "1",
+  pages        = "444",
+  publisher    = "Springer",
+  doi          = "10.1186/s12859-019-3022-z",
+
+  header       = "For general use of epiGTBN in publications please use:",
+  textVersion  =
+        paste("Guo, Y., Zhong, Z., Yang, C. et al.",
+        "Epi-GTBN: an approach of epistasis mining based on genetic Tabu algorithm and Bayesian network.",
+        "BMC Bioinformatics 20, 444 (2019)",
+        "doi:10.1186/s12859-019-3022-z")
+)
+
+citFooter("")
+

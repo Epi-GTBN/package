@@ -1,7 +1,7 @@
 mi_partial <- function(CachedMatrix3Col,CachedMatrix4Col,mylist2,mylist3,mylist4){ 
-  # 两种方式提高了3重循环中计算联合互信息的速度：
-  # 1. 在循环外计算entropy(mydata[,101])，减少每次符合条件时都需要算一遍entropy(mydata[,101])的时间
-  # 2. 不再使用十分耗时的cbind，而是预先给对象分配内存
+  # Two methods to improve the speed of calculating joint mutual information in a triple loop:
+  # 1. Calculate entropy (mydata [, 101]) outside the loop, reducing the time required to calculate entropy (mydata [, 101]) every time the conditions are met
+  # 2. No longer use time-consuming cbind, but rather allocate memory for objects in advance
   CachedMatrix3Col[,1] <- mylist2
   CachedMatrix3Col[,2] <- mylist3
   CachedMatrix3Col[,3] <- mylist4
