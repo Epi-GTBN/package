@@ -24,7 +24,7 @@ In order to enhance the diversity of the population and obtain a more effective 
                     
 - For Mac and Linux user: enter directory that stores the `.tar.gz` package, then run command `R CMD install epiGTBN` to install
 - For PC user: additional software 'Rtools' needs to be installed, then in R console run command `install.packages("path\\to\\epiGTBN_XXX.tar.gz", repos=NULL, type="source")` to install
-- Install from github: Compressed source code can be found at [github.com/Epi-GTBN/package/releases](https://github.com/Epi-GTBN/package/releases), currently there is no plan to implement the `install_github()` method.
+- Install from GitHub: Compressed source code can be found at [github.com/Epi-GTBN/package/releases](https://github.com/Epi-GTBN/package/releases), currently there is no plan to implement the `install_github()` method.
 
 ## USAGE EXAMPLE
 
@@ -96,9 +96,32 @@ Epi-GTBN is distributed under GPL version 2 or later, see the source code.
 
 ## Publication
 
-> Yang Guo#, Zhiman Zhong#, Chen Yang, Jiangfeng Hu, Yaling Jiang, Zizhen Liang, Hui Gao, Jianxiao Liu*. Epi-GTBN: An Approach of Epistasis Mining Based on Genetic Tabu Algorithm and Bayesian Network. BMC Bioinformatics 20(1): 444:1-444:18 (2019)
+> Yang Guo, Zhiman Zhong, Chen Yang, Jiangfeng Hu, Yaling Jiang, Zizhen Liang, Hui Gao, Jianxiao Liu*. Epi-GTBN: An Approach of Epistasis Mining Based on Genetic Tabu Algorithm and Bayesian Network. BMC Bioinformatics 20(1): 444:1-444:18 (2019)
 
 [Paper (.pdf)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3022-z)
+
+## CITATION
+
+Recommended way to cite this publication:
+
+```
+Guo, Y., Zhong, Z., Yang, C. *et al*. Epi-GTBN: an approach of epistasis mining based on genetic Tabu algorithm and Bayesian network. *BMC Bioinformatics* **20**, 444 (2019) doi:10.1186/s12859-019-3022-z
+```
+
+BibTeX:
+
+```
+@article{,
+  title={Epi-GTBN: an approach of epistasis mining based on genetic Tabu algorithm and Bayesian network},
+  author={Guo, Yang and Zhong, Zhiman and Yang, Chen and Hu, Jiangfeng and Jiang, Yaling and Liang, Zizhen and Gao, Hui and Liu, Jianxiao},
+  journal={BMC bioinformatics},
+  volume={20},
+  number={1},
+  pages={444},
+  year={2019},
+  publisher={Springer}
+}
+```
 
 ## Organization
 
