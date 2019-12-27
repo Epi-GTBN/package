@@ -16,7 +16,7 @@
     Package: \tab epiGTBN\cr
     Type: \tab Package\cr
     Version: \tab 2.1.0-3\cr
-    Date: \tab 2019-12-11\cr
+    Date: \tab 2019-12-27 PST\cr
     License: \tab GPLv2 or later
 
   }

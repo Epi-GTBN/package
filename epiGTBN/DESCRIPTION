@@ -2,7 +2,7 @@ Package: epiGTBN
 Type: Package
 Title: Epistasis Mining Based on Genetic Tabu Algorithm and Bayesian Network
 Version: 2.1.0-3
-Date: 2019-12-11
+Date: 2019-12-27 PST
 Depends: R (>= 3.4.1), methods
 Suggests: parallel, graph, Rgraphviz, lattice, gRain
 Author: Yang (Simon) Guo, ZhiMan (Melody) Zhong

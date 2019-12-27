@@ -22,8 +22,8 @@ In order to enhance the diversity of the population and obtain a more effective 
 
 ## INSTALLATION
                     
-- For Mac and Linux user: enter directory that stores the `.tar.gz` package, then run command `R CMD install epiGTBN` to install
-- For PC user: additional software 'Rtools' needs to be installed, then in R console run command `install.packages("path\\to\\epiGTBN_XXX.tar.gz", repos=NULL, type="source")` to install
+- For Mac and Linux user: enter directory that stores the `.tar.gz` package, then run command `R CMD INSTALL epiGTBN_XXX.tar.gz` to install.
+- For PC user: additional software 'Rtools' needs to be installed, then in R console run command `install.packages("path\\to\\epiGTBN_XXX.tar.gz", repos=NULL, type="source")` to install.
 - Install from GitHub: Compressed source code can be found at [github.com/Epi-GTBN/package/releases](https://github.com/Epi-GTBN/package/releases), currently there is no plan to implement the `install_github()` method.
 
 ## USAGE EXAMPLE
